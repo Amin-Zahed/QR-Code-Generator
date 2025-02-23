@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Protest Strike", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    135deg,
+    rgb(0, 51, 128) 0%,
+    rgb(32, 124, 202) 43%,
+    rgb(32, 124, 202) 43%,
+    rgb(41, 137, 216) 50%,
+    rgb(128, 0, 0) 100%
+  );
+}
+.container {
+  width: 500px;
+  /* background-color: blueviolet; */
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+.container .info h1 {
+  margin-bottom: 30px;
+}
+.container .info p {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  margin-bottom: 10px;
+}
+.container form {
+  margin: 25px 0 15px;
+}
+.container form :where(input, button) {
+  border: 0;
+  outline: 0;
+  width: 100%;
+  border-radius: 15px;
+  margin: 5px 0;
+  padding: 10px;
+  font-size: 16px;
+}
+.container form {
+  margin-bottom: 20px;
+}
+.container form input {
+  border: 1px solid #999;
+}
+.container form button {
+  background-color: rgb(107, 107, 252);
+  color: antiquewhite;
+  letter-spacing: 3px;
+  box-shadow: 0px 15px 0px 0px rgb(44, 44, 253), 0px 30px 0px 0px rgb(0, 0, 112);
+  cursor: pointer;
+}
+.container .qr-code {
+  margin: 10px 0;
+  padding: 30px;
+}
+.hidden {
+  display: none;
+}
